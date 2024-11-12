@@ -19,6 +19,9 @@ export default {
     },
     extend: {
       colors: {
+        border: "hsl(var(--border))",
+        background: "hsl(var(--background))",
+        foreground: "hsl(var(--foreground))",
         doge: {
           purple: "#6366f1",
           pink: "#ec4899",

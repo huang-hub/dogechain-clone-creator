@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Twitter, Github, Discord } from "lucide-react";
+import { Twitter, Github, MessageSquare } from "lucide-react";
 
 export const Community = () => {
   return (
@@ -14,7 +14,7 @@ export const Community = () => {
         </motion.h2>
         
         <div className="flex justify-center space-x-8">
-          {[Twitter, Github, Discord].map((Icon, index) => (
+          {[Twitter, Github, MessageSquare].map((Icon, index) => (
             <motion.a
               key={index}
               href="#"
