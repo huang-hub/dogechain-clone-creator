@@ -13,6 +13,8 @@ export const RFQ = () => {
           Frequently Asked Questions about <span className="text-gradient">Dogecoin</span>
         </motion.h2>
         
+        <img src="/02dogecoin.png" alt="Dogecoin Poster 2" className="mb-4 w-full" />
+        
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {faqs.map((faq, index) => (
             <Card key={index} className="backdrop-blur-sm bg-white/10">
