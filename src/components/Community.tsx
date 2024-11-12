@@ -17,7 +17,7 @@ export const Community = () => {
           {[Twitter, Github, MessageSquare].map((Icon, index) => (
             <motion.a
               key={index}
-              href="#"
+              href="https://github.com/huang-hub/dogechain-clone-creator?tab=readme-ov-file"
               initial={{ opacity: 0, scale: 0.5 }}
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ delay: index * 0.1 }}
