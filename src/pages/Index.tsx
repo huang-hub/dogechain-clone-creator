@@ -21,7 +21,7 @@ const Index = () => {
         <meta property="og:description" content="Explore Dogecoin (DOGE), the people's cryptocurrency. Get real-time prices, learn about mining, trading, and join the friendly community. Much wow!" />
         <meta property="og:image" content="public\doge-mascot-coin-up.png" />
         <meta name="twitter:card" content="summary_large_image" />
-        <link rel="canonical" href="https://doge-coin.top" />
+        <link rel="canonical" href="https://dogecoin.uno" />
       </Helmet>
       
       <main className="min-h-screen">
