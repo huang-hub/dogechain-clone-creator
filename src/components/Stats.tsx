@@ -38,6 +38,9 @@ export const Stats = () => {
             </motion.div>
           ))}
         </div>
+        <div className="mt-8">
+          <img src="public/01dogecoin.png" alt="Dogecoin Poster 1" className="w-full" />
+        </div>
       </div>
     </div>
   );
