@@ -43,7 +43,7 @@ export const PetDoge = () => {
         
         <div className="relative inline-block">
           <motion.img
-            src="public\click-on-dogecoin.png"
+            src="/click-on-dogecoin.png"
             alt="Dogecoin Mascot"
             className="w-64 h-64 cursor-pointer hover:scale-105 transition-transform"
             whileHover={{ scale: 1.05 }}
