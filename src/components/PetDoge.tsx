@@ -43,7 +43,7 @@ export const PetDoge = () => {
         
         <div className="relative inline-block">
           <motion.img
-            src="https://dogechain.dog/assets/doge-computer.png"
+            src="public\click-on-dogecoin.png"
             alt="Dogecoin Mascot"
             className="w-64 h-64 cursor-pointer hover:scale-105 transition-transform"
             whileHover={{ scale: 1.05 }}
@@ -55,9 +55,9 @@ export const PetDoge = () => {
               <motion.div
                 key={coin.id}
                 initial={{ opacity: 1, y: 0, x: coin.x }}
-                animate={{ y: -100, x: coin.x + (Math.random() * 100 - 50) }}
+                animate={{ y: -100, x: coin.x + (Math.random() * 100 - 50), scale: 1.5 }}
                 exit={{ opacity: 0 }}
-                className="absolute w-8 h-8 text-2xl"
+                className="absolute w-16 h-16 text-4xl"
                 style={{ top: coin.y, left: 0 }}
               >
                 🪙
