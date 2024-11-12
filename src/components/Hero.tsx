@@ -33,7 +33,7 @@ export const Hero = () => {
           className="text-center"
         >
           <motion.img
-            src="public\doge-mascot-coin-up.png"
+            src="/doge-mascot-coin-up.png"
             alt="Doge Mascot"
             className="w-64 h-64 mx-auto mb-8 animate-float"
             initial={{ scale: 0.8 }}
